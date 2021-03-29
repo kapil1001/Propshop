@@ -52,8 +52,11 @@ const HomeScreen = ({ match }) => {
             pages={pages}
             page={page}
             keyword={keyword ? keyword : ''}
-          /></>)}</>
+          />
+        </>
+      )}
+    </>
   )
 }
-export default HomeScreen
 
+export default HomeScreen
